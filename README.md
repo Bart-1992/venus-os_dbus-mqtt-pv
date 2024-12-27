@@ -1,6 +1,4 @@
-# dbus-mqtt-pv - Emulates a physical PV Inverter from MQTT data
-
-<small>GitHub repository: [mr-manuel/venus-os_dbus-mqtt-pv](https://github.com/mr-manuel/venus-os_dbus-mqtt-pv)</small>
+# dbus-mqtt-pv - Emulates a physical PV Inverter from MQTT data --> Forked and adopted specifily for GROTT mqtt from growatt
 
 ## Index
 
@@ -265,7 +263,7 @@ Additional information can be found in this [issue](https://github.com/mr-manuel
 2. Execute this commands to download and copy the files:
 
     ```bash
-    wget -O /tmp/download_dbus-mqtt-pv.sh https://raw.githubusercontent.com/mr-manuel/venus-os_dbus-mqtt-pv/master/download.sh
+    wget -O /tmp/download_dbus-mqtt-pv.sh https://raw.githubusercontent.com/bart_1992/venus-os_dbus-mqtt-pv/master/download.sh
 
     bash /tmp/download_dbus-mqtt-pv.sh
     ```
